@@ -1,0 +1,21 @@
+Source: libno-worries-perl
+Section: perl
+Priority: optional
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/No-Worries/
+
+Package: libno-worries-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: coding without worries
+ No::Worries and its sub-modules ease coding by providing consistent
+ convenient functions to perform frequently used programming tasks.
+ .
+ This module also exposes the $HostName and $ProgramName variables that
+ represent what the sub-modules think the host name or program name is. These
+ variables can be changed, if needed.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

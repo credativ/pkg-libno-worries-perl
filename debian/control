@@ -3,7 +3,10 @@ Section: perl
 Priority: optional
 Maintainer: Alexander Wirt <formorer@debian.org>
 Build-Depends: debhelper (>= 8)
-Build-Depends-Indep: perl
+Build-Depends-Indep: libhttp-date-perl,
+                     libparams-validate-perl,
+                     liburi-perl,
+                     perl
 Standards-Version: 3.9.3
 Homepage: http://search.cpan.org/dist/No-Worries/
 

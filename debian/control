@@ -12,7 +12,11 @@ Homepage: http://search.cpan.org/dist/No-Worries/
 
 Package: libno-worries-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: libhttp-date-perl,
+         libparams-validate-perl,
+         liburi-perl,
+         ${misc:Depends},
+         ${perl:Depends}
 Description: coding without worries
  No::Worries and its sub-modules ease coding by providing consistent
  convenient functions to perform frequently used programming tasks.

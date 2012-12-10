@@ -1,7 +1,7 @@
 Source: libno-worries-perl
 Section: perl
 Priority: optional
-Maintainer: Alexander Wirt <formorer@debian.org>
+Maintainer: Alexander Wirt <alexander.wirt@credativ.de>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: libhttp-date-perl,
                      libparams-validate-perl,

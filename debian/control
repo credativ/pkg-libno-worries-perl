@@ -12,7 +12,7 @@ Homepage: http://search.cpan.org/dist/No-Worries/
 
 Package: libno-worries-perl
 Architecture: all
-Depends: libhttp-date-perl,
+Depends: libwww-perl | libhttp-date-perl,
          libparams-validate-perl,
          liburi-perl,
          ${misc:Depends},
